@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{margin: 0;padding: 0;font-family:'Poppins', sans-serif;}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    background: gray;
+    color: white;
+}
+.container
+{
+    align-items: center;
+    background-color: #4e5562;
+    border-radius: 10px;
+    width: 800px;
+    height: fit-content;
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+header
+{
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1
+{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: rgb(221, 217, 217);
+}
+#new-task-form
+{
+    display: flex;
+    justify-content: center;
+}
+input, button
+{
+    border:none;
+    outline: none;
+    background: none;
+}
+#new-task-input
+{
+    background-color:rgb(2, 72, 72);
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 10px;
+    width: 550px;
+    color: white;
+    font-size: 14px;
+  
+}
+#new-task-input::placeholder
+{
+    color: white;
+}
+#new-task-submit
+{
+    color: black;
+    background-color: goldenrod;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#new-task-submit:hover
+{
+    text-shadow:  1px 0px 20px white;
+}
+main
+{
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+.task-list
+{
+    padding: 10px;
+}
+.task-list h2
+{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color:orange;
+}
+#tasks
+{
+    align-items: center;
+}
+#tasks .task
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:indigo;
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#tasks .task .content::placeholder
+{
+    color: white;
+    font-size: 17px;
+}
+#tasks .task .actions
+{
+    display: flex;
+    margin: 0 -10px;
+}
+#tasks .task button
+{
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 55px;
+}
+#tasks .task button:hover
+{
+    text-shadow:  1px 0px 20px white;
+}
+.task .actions .edit
+{
+    color:lawngreen;
+}
+.task .actions .delete
+{
+    color: crimson;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
